@@ -1,0 +1,16 @@
+{
+  "autoload": {
+    "App": "src"
+  },
+  "require": {
+    "moneyphp/money": "^v4.1",
+    "symfony/http-foundation": "^v6.3",
+    "symfony/uid": "^v6.3"
+  },
+  "config": {
+    "platform":{
+      "php": "8.2",
+      "ext-bcmath": "8.2"
+    }
+  }
+}
