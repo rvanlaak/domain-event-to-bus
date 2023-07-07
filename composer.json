@@ -1,6 +1,6 @@
 {
   "autoload": {
-    "App": "src"
+    "psr-4": {"App\\": "src/"}
   },
   "require": {
     "moneyphp/money": "^v4.1",
